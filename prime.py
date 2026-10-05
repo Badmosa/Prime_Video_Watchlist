@@ -63,9 +63,9 @@ if __name__ == "__main__":
     watchlist = Watchlist()
     watchlist.add_movie(Movie("Data Movie by Baraa"))
     watchlist.add_movie(Movie("Fast and Furious"))
-    watchlist.add_movie(Movie("inception"))  # duplicate, rejected
+    watchlist.add_movie(Movie("Spider-Man"))  # duplicate, rejected | Add more movies to the watchlist
 
-    watchlist.mark_watched("Inception")
+    watchlist.mark_watched("Fast and Furious")
 
     print("To watch:")
     for movie in watchlist.get_unwatched():
