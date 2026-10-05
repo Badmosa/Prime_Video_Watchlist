@@ -59,3 +59,23 @@ class Watchlist:
         return [m for m in self.movies if m.watched]
 
 
+if __name__ == "__main__":
+    watchlist = Watchlist()
+    watchlist.add_movie(Movie("Data Movie by Baraa"))
+    watchlist.add_movie(Movie("Inception"))
+    watchlist.add_movie(Movie("inception"))  # duplicate, rejected
+
+    watchlist.mark_watched("Inception")
+
+    print("To watch:")
+    for movie in watchlist.get_unwatched():
+        print(movie)
+
+    print("\nWatched:")
+    for movie in watchlist.get_watched():
+        print(movie)
+movie = Movie("Data Movie by Baraa")
+watchlist = Watchlist()
+
+watchlist.add_movie(movie)
+watchlist.get_unwatched()
