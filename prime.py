@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
     watchlist.mark_watched("Fast and Furious")
 
-    print("To watch:")
+    print("To watch:") # change from 'to watch' to not yet watched'
     for movie in watchlist.get_unwatched():
         print(movie)
 
