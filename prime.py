@@ -62,7 +62,7 @@ class Watchlist:
 if __name__ == "__main__":
     watchlist = Watchlist()
     watchlist.add_movie(Movie("Data Movie by Baraa"))
-    watchlist.add_movie(Movie("Inception"))
+    watchlist.add_movie(Movie("Fast and Furious"))
     watchlist.add_movie(Movie("inception"))  # duplicate, rejected
 
     watchlist.mark_watched("Inception")
