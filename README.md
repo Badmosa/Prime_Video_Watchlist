@@ -1,6 +1,6 @@
-# 🎬 Netflix Watchlist App
+# 🎬 Prime Video Watchlist App
 
-A small Python app that keeps track of movies you want to watch and movies you've already seen. Built to practice **classes and objects** (OOP) in Python.
+This is a small Python app that keeps track of movies you want to watch and movies you've already seen. Built to practice **classes and objects** (OOP) in Python.
 
 ## What it does
 
