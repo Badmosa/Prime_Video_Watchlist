@@ -38,8 +38,9 @@ The app has two classes.
 
 ## Skills
 - Critical Thinking
-- 
-- 
+- Clean Code Practice
+- Object-Oriented Programming
+- Well-Structured Encapsulation Practices
 
 ## How to run
 
@@ -100,3 +101,12 @@ Watched:
 **Badmos Adesola Ayomide**
 **Data Engineer**
 [LinkedIn](https://linkedin.com/in/badmosayomide) · [Portfolio](https://datascienceportfol.io/badmosayomide02)
+
+
+
+Skills used
+Object-oriented programming: two classes (Movie and Watchlist) that each have their own job and work together
+Encapsulation: data and the methods that change it live in the same class, like watched and mark_watched() inside Movie
+List comprehensions and any(): filtering watched and unwatched movies, and checking for duplicates in one readable line
+String handling: .lower() for case-insensitive matching, and f-strings for clean output
+Clean coding practices: type hints, the __str__ method, and the if __name__ == "__main__": guard
