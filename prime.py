@@ -1,4 +1,4 @@
-# Netflix: Build a Netflix Watchlist App with Classes & Objects
+# Building a Prime Video Watchlist App with Classes & Objects
 
 class Movie:
     def __init__(self, title):
