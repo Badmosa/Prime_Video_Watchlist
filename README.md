@@ -51,7 +51,7 @@ The app has two classes.
 python watchlist.py
 ```
 
-## Example
+## Code
 
 ```python
 watchlist = Watchlist()
