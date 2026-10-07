@@ -27,7 +27,7 @@ class Movie:
         self.title = title
         self.watched = False
 
-    def mark_watched(self):
+    def mark_watched(self):     
         self.watched = True
 
     def __str__(self):
