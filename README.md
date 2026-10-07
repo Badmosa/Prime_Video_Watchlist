@@ -20,7 +20,7 @@ The app has two classes.
 |---|---|
 | `title` | The name of the movie |
 | `watched` | `False` by default, becomes `True` once you've seen it |
-| `mark_watched()` | Sets `watched` to `True` |
+| `mark_watched()` | This sets `watched` to `True` |
 | `__str__()` | Prints the movie like `[✓] Ike` or `[ ] Spider-Man` |
 
 **`Watchlist`** holds all your movies.
@@ -40,7 +40,7 @@ The app has two classes.
 - Critical Thinking
 - Clean Code Practice
 - Object-Oriented Programming
-- Well-Structured Encapsulation Practices
+- Well-Structured Encapsulation
 
 ## How to run
 
@@ -88,7 +88,7 @@ Watched:
 [✓] Ike
 ```
 
-## What I learned
+## Key Lessons
 
 - Creating classes and objects
 - Using `__init__` to set up an object's starting values
