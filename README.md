@@ -7,8 +7,8 @@ This is a small Python app that keeps track of movies you want to watch and movi
 - Add movies to your watchlist
 - It blocks duplicates ("Ike" and "ike" count as the same movie)
 - Mark a movie as watched by its title
-- See what you haven't watched yet
-- See what you've already watched
+- It helps to easily identify what you've not watched yet
+- Helps to identify what you've already watched
 
 ## How it works
 
