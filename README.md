@@ -98,6 +98,6 @@ Watched:
 
 ## Author
 
-**Badmos Adesola Ayomide**
+**Badmos Adesola Ayomide,**
 **Data Engineer**
 [LinkedIn](https://linkedin.com/in/badmosayomide) · [Portfolio](https://datascienceportfol.io/badmosayomide02)
