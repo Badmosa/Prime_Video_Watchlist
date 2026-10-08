@@ -59,6 +59,7 @@ class Watchlist:
         return [m for m in self.movies if m.watched]
 
 # duplicate to be rejected
+
 if __name__ == "__main__":
     watchlist = Watchlist()
     watchlist.add_movie(Movie("Data Movie by Baraa"))
